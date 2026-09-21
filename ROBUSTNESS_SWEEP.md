@@ -1,4 +1,4 @@
-# Exhibit J-7: Direct Robustness Demonstration Across Contamination Levels
+# Exhibit J-5: Direct Robustness Demonstration Across Contamination Levels
 
 ## What this is
 
