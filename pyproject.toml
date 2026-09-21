@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robust-hybrid-regularization"
+version = "0.1.0"
+description = "An open-source implementation of a two-step hybrid regularization/variable-selection approach for high-dimensional, outlier-contaminated regression, based on published research."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Christian Nnaemeka Nwaeme" }
+]
+dependencies = [
+    "numpy>=1.21",
+    "scikit-learn>=1.0",
+    "matplotlib>=3.5"
+]
+
+[project.urls]
+Repository = "https://github.com/ChristianNnaemekaNWAEME/robust-hybrid-regularization"
