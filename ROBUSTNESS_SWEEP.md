@@ -3,15 +3,13 @@
 ## What this is
 
 This directly tests the core theoretical claim behind the robust
-selection stage of this repository's estimator (the same estimator
-published in the author's thesis, Exhibit C-1): that trimmed,
+selection stage of this repository's estimator: that trimmed,
 outlier-robust variable selection recovers the true set of active
 predictors more reliably than plain LASSO when the data contains
 contaminated observations.
 
 Unlike the published thesis's simulation (run at one fixed
-contamination level) or the NASA C-MAPSS application (Exhibit J-3,
-whose selected data subset was low-contamination by design), this
+contamination level) or the NASA C-MAPSS application (whose selected data subset was low-contamination by design), this
 experiment sweeps contamination fraction as a single controlled
 variable across five levels: 0%, 10%, 20%, 30%, and 40%, isolating
 exactly the property this method was designed to provide.
